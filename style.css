@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 50vh;
+  width: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 12px;
+  color: rgb(24, 23, 23);
+  font-size: 15px;
+}
+main {
+  background-image: url(/astronaut_art_space_129529_2560x1600.jpg);
+  background-repeat: no-repeat;
+  object-fit: fill;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.review_container {
+  border-radius: 12px;
+  border: 2px solid whitesmoke;
+  background-color: rgba(193, 193, 202, 0.486);
+  backdrop-filter: blur(12px);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 50vh;
+  height: 65vh;
+}
+.profile {
+  width: 75px;
+  height: 75px;
+  padding: 2px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+.profile img {
+  width: 75px;
+  height: 75px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.button_container {
+  gap: 12px;
+  display: flex;
+}
+h3 {
+  color: rgba(3, 46, 87, 0.998);
+}
+#job {
+  color: white;
+}
+.previousButton {
+  border: none;
+  color: rgb(10, 88, 116);
+  font-size: 30px;
+  background-color: transparent;
+}
+.nextButton {
+  border: none;
+  color: rgb(10, 88, 116);
+  font-size: 30px;
+  background-color: transparent;
+}
+#information {
+  width: 100%;
+  height: 10vh;
+}
