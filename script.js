@@ -2,30 +2,30 @@ const reviews = [
   {
     id: 1,
     name: "suhail Ah",
-    job: "web developer 2",
+    job: "Web developer 2",
     Img: "https://picsum.photos/200/3007",
-    text: "   1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora iure veniam laboriosam rem ea dolores veritatis odio illo asperiores. Sint, aspernatur! Magni ipsum voluptates, culpa provident tempora eiu ",
+    text: "1 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora iure veniam laboriosam rem ea dolores veritatis odio illo asperiores. Sint, aspernatur! Magni ipsum ",
   },
   {
     id: 2,
     name: "Samin",
-    job: "web developer",
+    job: "Web developer 1",
     Img: "https://picsum.photos/200/302",
-    text: "   2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora iure veniam laboriosam rem ea dolores veritatis odio illo asperiores. Sint, aspernatur! Magni ipsum voluptates, culpa provident tempora eiu ",
+    text: "2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora iure veniam laboriosam rem ea dolores veritatis odio illo asperiores. Sint, aspernatur! ",
   },
   {
     id: 3,
     name: "ummar  hamid",
     job: "Full stack Developer",
     Img: "https://picsum.photos/200/303",
-    text: "    3Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora iure veniam laboriosam rem ea dolores veritatis odio illo asperiores. Sint, aspernatur! Magni ipsum voluptates, culpa provident tempora eiu ",
+    text: "3Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora iure veniam laboriosam rem ea dolores veritatis odio illo asperiores. Sin ",
   },
   {
     id: 3,
     name: "Aaqib Mushtaq",
-    job: "web developer 3",
+    job: "Web developer 3",
     Img: "https://picsum.photos/200/301",
-    text: "    4Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora iure veniam laboriosam rem ea dolores veritatis odio illo asperiores. Sint, aspernatur! Magni ipsum voluptates, culpa provident tempora eius",
+    text: "4Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora iure veniam laboriosam rem ea dolores veritatis odio illo asperiores. Sint, aspernatur",
   },
 ];
 const img = document.getElementById("profile-image");
