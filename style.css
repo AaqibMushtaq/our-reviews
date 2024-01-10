@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  color: aliceblue;
+  text-decoration: underline #ffd43b;
+}
+#author {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(247, 249, 251);
+}
+.container {
+  height: 50vh;
+  width: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 12px;
+  gap: 12px;
+}
+main {
+  background-image: url(/earth.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.review_container {
+  border-radius: 12px;
+  border: 1px solid whitesmoke;
+  backdrop-filter: blur(12px);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 50vh;
+  height: 65vh;
+  gap: 30px;
+}
+
+.profile {
+  width: 90px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.profile img {
+  width: 90px;
+  height: 90px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.button_container {
+  gap: 35vh;
+  display: flex;
+}
+#job {
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffd43b;
+  text-shadow: -1px 1px 2px #000, 1px 2px 6px #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+.previousButton {
+  font-weight: 700;
+  border: none;
+  color: #ffd43b;
+  font-size: 35px;
+  background-color: transparent;
+}
+.nextButton {
+  font-weight: 700;
+  border: none;
+  color: #ffd43b;
+  font-size: 35px;
+  background-color: transparent;
+}
+#information {
+  width: 100%;
+  height: 10vh;
+}
+#button-surprise {
+  border-radius: 24px;
+  padding: 10px 20px;
+  border: none;
+}
+#information {
+  color: white;
+  text-align: center;
+  line-height: 21px;
+  font-size: 15px;
+}
+#button-surprise {
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ffd43b;
+  padding: 12px 30px;
+}
